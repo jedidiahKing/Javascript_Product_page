@@ -3,19 +3,22 @@ const html = `
 <section class="container content-section">
             <h2 class="section-header">MY SHOP</h2>
             <div class="shop-items">
-                <div class="shop-item">
-                    <span class="shop-item-title">Barcelona Jersey</span>
-                    <img class="shop-item-image" src="Images/home-jersey.jpg">
-                    <div class="shop-item-details">
-                        <span class="shop-item-details">$12.99</span>
-                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                    </div>
-                </div>
+
+            <div class="shop-item">
+            <span class="shop-item-title">Barcelona Jersey</span>
+            barcelona <br>
+            <img class="shop-item-image" src="Images/home-jersey.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$12.00</span>
+                <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+            </div>
+        </div>
+            
                 <div class="shop-item">
                     <span class="shop-item-title">Iphone 12</span>
                     <img class="shop-item-image" src="Images/iphone.png">
                     <div class="shop-item-details">
-                        <span class="shop-item-price">$14.99</span>
+                        <span class="shop-item-price">$829.50</span>
                         <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
                     </div>
                 </div>
@@ -23,7 +26,7 @@ const html = `
                     <span class="shop-item-title">Nike Air Force</span>
                     <img class="shop-item-image" src="Images/nike-air.jpg">
                     <div class="shop-item-details">
-                        <span class="shop-item-price">$9.99</span>
+                        <span class="shop-item-price">$100.50</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
                 </div>
@@ -31,7 +34,7 @@ const html = `
                     <span class="shop-item-title">Beats Speaker</span>
                     <img class="shop-item-image" src="Images/speaker.jpg">
                     <div class="shop-item-details">
-                        <span class="shop-item-price">$19.99</span>
+                        <span class="shop-item-price">$25.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
                 </div>
