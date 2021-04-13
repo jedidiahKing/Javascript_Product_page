@@ -1,14 +1,14 @@
 * {
     box-sizing: border-box;
     font-family: Raleway;
-    color: #777;
+    color: rgb(202, 198, 198);
 }
 
 html, body {
     margin: 0;
     padding: 0;
     min-height: 100%;
-    background-color: rgb(184, 184, 184)
+    background-color: whitesmoke;
 }
 
 .content-section {
@@ -86,6 +86,15 @@ html, body {
     height: 250px;
 }
 
+.description{
+    color:red;
+    font-size: 20px;
+}
+
+.descrip-text{
+    color:black;
+    font-size: 18px;
+}
 .shop-item-details {
     display: flex;
     align-items: center;

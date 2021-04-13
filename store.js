@@ -6,10 +6,13 @@ const html = `
 
             <div class="shop-item">
             <span class="shop-item-title">Barcelona Jersey</span>
-            barcelona <br>
             <img class="shop-item-image" src="Images/home-jersey.jpg">
+            <p class="description">Details</p>
+            <p class="descrip-text">2020/21 Barcelona Home Jersey <br>
+            Made from pure cotten and nice on <br>
+            the skin.They come in all sizes.</p>
             <div class="shop-item-details">
-                <span class="shop-item-price">$12.00</span>
+                <span class="shop-item-price">$25.00</span>
                 <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
             </div>
         </div>
@@ -17,14 +20,23 @@ const html = `
                 <div class="shop-item">
                     <span class="shop-item-title">Iphone 12</span>
                     <img class="shop-item-image" src="Images/iphone.png">
+                    <p class="description">Details</p>
+                    <p class="descrip-text">Newly released Iphone 12.<br>
+                    Slik body with waterproof<br>
+                    Available in 128Gb and 256Gb only </p>
                     <div class="shop-item-details">
                         <span class="shop-item-price">$829.50</span>
                         <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
                     </div>
                 </div>
+
                 <div class="shop-item">
                     <span class="shop-item-title">Nike Air Force</span>
                     <img class="shop-item-image" src="Images/nike-air.jpg">
+                    <p class="description">Details</p>
+                    <p class="descrip-text">Nike Air Force in multiple colors. <br>
+                    Neat and easy to wear and wash. <br>
+                    Sizes available 42, 43, 44, 45.</p>
                     <div class="shop-item-details">
                         <span class="shop-item-price">$100.50</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
@@ -33,6 +45,10 @@ const html = `
                 <div class="shop-item">
                     <span class="shop-item-title">Beats Speaker</span>
                     <img class="shop-item-image" src="Images/speaker.jpg">
+                    <p class="description">Details</p>
+                    <p class="descrip-text">Beats by Dre Speaker. <br>
+                    Produce quality sounds for the ear. <br>
+                    Long lasting battery .</p>
                     <div class="shop-item-details">
                         <span class="shop-item-price">$25.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
